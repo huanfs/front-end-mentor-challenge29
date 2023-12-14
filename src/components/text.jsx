@@ -1,4 +1,4 @@
-import "./text.scss";
+import "./text.css";
 const Text = (props) => {
     const text_1 = `" I've been interested in coding
     for a while but never taking the jump. until

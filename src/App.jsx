@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
-import "./App.scss";
+import { useState, } from "react";
+import "./App.css";
 /*comonents*/
 import Text from "./components/text";
 import Slider from "./components/slider";

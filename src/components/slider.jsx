@@ -1,4 +1,4 @@
-import "./slider.scss";
+import "./slider.css";
 /*person images*/
 import img_1 from "../assets/images/image-tanya.jpg";
 import img_2 from "../assets/images/image-john.jpg";
