@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    min-height:100vh;
+    display:grid;
+    place-items:center;
+    background-image:url("./assets/images/pattern-curve.svg");
+    background-repeat:no-repeat;
+    background-position:left bottom;
+    background-size:50% 120px;
+}
+#root{
+    height:100%;
+    display:flex;
+    align-items:center;
+    padding:3em;
+}
+@media screen and (max-width:505px){
+    body{
+        background-size:50% 80px; 
+    }
+    #root{
+        width:100%;
+        flex-direction:column-reverse;
+        padding:0;
+    }
+    article{
+        width:100%;
+        padding:2em;
+        display:flex;
+        flex-direction:column;
+        gap:1em;
+        align-items:center;
+        font-family:'Arata', sans-serif;
+        margin-bottom:100px;
+        p{
+            font-size:20px;
+            text-align:center;
+        }
+        span{
+            display:flex;
+            flex-direction:column;
+            align-items:center;
+            color:#908a8a;
+            gap:0.5em;
+            strong{
+                margin-right:10px;
+                color:#000;
+            }
+        }
+    }
+    section{
+        width:100%;
+        display:grid;
+        place-items:center;
+        background-image:url("../src/assets/images/pattern-bg.svg");
+        background-size:100% 100%;
+        padding:2em 1em 1em 1em;
+        > img:first-child{
+            width:100%;
+            border-radius:10px;
+            box-shadow:1px 1px 5px #0000005f;
+        }
+        div{
+            max-width:70px;
+            display:flex;
+            align-items:center;
+            justify-content:space-around;
+            gap:2em;
+            padding:0.5em 1.5em;
+            border-radius:30px;
+            box-shadow:2px 2px 5px #000;
+            position:relative;
+            top:-1em;
+            background-color:#fff;
+            z-index:10;
+            cursor:pointer;
+        }
+    }
+}

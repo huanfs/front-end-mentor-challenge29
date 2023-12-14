@@ -1,0 +1,33 @@
+$DarkGray: hsl(0, 0%, 55%);
+$Black: hsl(0, 0%, 0%);
+$White: hsl(0, 0%, 100%);
+$VeryDarkGray: hsl(0, 0%, 41%);
+@media screen and (min-width:505px){
+    article{
+        height:200px;
+        max-width:380px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        gap:1em;
+        position:relative;
+        left:5%;
+        background-image:url("../assets/images/pattern-quotes.svg");
+        background-size:60px 60px;
+        background-position:100px 0;
+        background-repeat:no-repeat;
+        background-color:transparent;
+        z-index:10;
+        font-family:'Alata', sans-serif;
+        p{
+            font-size:19px;
+        }
+        span{
+            color:$DarkGray;
+            strong{
+                margin-right:10px;
+                color:$Black;
+            }
+        }
+    }
+}
